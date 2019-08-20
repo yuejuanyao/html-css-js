@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="picture.css">
+    <script src="picture.js"></script>
+    <title>pictures</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="faces" style="display: block">
+            <div class="num">1 / 5</div>
+            <img src="img\australian.JPG">
+            <div class="text">澳大利亚园</div>
+        </div>
+
+        <div class="faces">
+            <div class="num">2/5</div>
+            <img src="img\bear.JPG">
+            <div class="text">德国园</div>
+        </div>
+
+        <div class="faces">
+            <div class="num">3/5</div>
+            <img src="img\smile.JPG">
+            <div class="text">加勒比联合馆</div>
+        </div>
+
+        <div class="faces">
+            <div class="num">4/5</div>
+            <img src="img\flower.JPG">
+            <div class="text">随处可见的花</div>
+        </div>
+
+        <div class="faces">
+            <div class="num">5/5</div>
+            <img src="img\back.JPG">
+            <div class="text">背影</div>
+        </div>
+        <a class="prev" onclick="getprev_next(-1)">❮</a>
+        <a class="next" onclick="getprev_next(1)">❯</a>
+    </div>
+
+    <div class="switcher">
+        <span class="dot" onclick="chosebydot(0)"></span>
+        <span class="dot" onclick="chosebydot(1)"></span>
+        <span class="dot" onclick="chosebydot(2)"></span>
+        <span class="dot" onclick="chosebydot(3)"></span>
+        <span class="dot" onclick="chosebydot(4)"></span>
+    </div>
+
+</body>
+
+</html>
